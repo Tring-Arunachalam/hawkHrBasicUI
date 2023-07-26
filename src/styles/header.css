@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#428BCA;
+    height: 8vh;
+}
+.header div{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+    word-spacing: 2px;
+    /* letter-spacing: 0.2em; */
+    /* font-size: 1em; */
+}
+.hawkhrimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timeInOut{
+    display: flex;
+    column-gap: 15px;
+}
+.timeInOut button{
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(116, 207, 116);
+    font-weight: 700;
+    letter-spacing: 1pt;
+    border: none;
+}
+.headerProfileDetails{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
